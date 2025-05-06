@@ -4,9 +4,9 @@ import datetime
 import os
 
 # Paramètres de l'algorithme génétique
-population_size = 1
-mutation_rate = 0.00004
-target_length = 24000  # Longueur du mot cible
+population_size = 2
+mutation_rate = 0.04
+target_length = 24  # Longueur du mot cible
 
 def generate_random_word(length):
 #    return 'a' * length
