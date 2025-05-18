@@ -5,9 +5,9 @@ import os
 #import psutil  # Importez le module psutil
 
 # Paramètres de l'algorithme génétique
-population_size = 1000000
-mutation_rate = 0.001
-target_length = 1000  # Longueur du mot cible
+population_size = 100
+mutation_rate = 0.01
+target_length = 100  # Longueur du mot cible
 
 def generate_random_word(length):
     return ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(length))

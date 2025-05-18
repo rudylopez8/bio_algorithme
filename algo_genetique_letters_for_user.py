@@ -78,6 +78,8 @@ def algorithme_genetique_croiser(target, max_iterations):
         taux_mutation = float(taux_mutation)
 
     parents_a_reproduire = taille_population // 2 
+    if parents_a_reproduire % 2:
+        parents_a_reproduire -= 1
     generations = 0
     trouve = False
 
@@ -205,4 +207,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
